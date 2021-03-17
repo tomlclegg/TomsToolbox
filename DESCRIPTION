@@ -11,3 +11,4 @@ Encoding: UTF-8
 LazyData: true
 URL: https://github.com/tomlclegg/TomsToolbox
 BugReports: https://github.com/tomlclegg/TomsToolbox/issues
+RoxygenNote: 7.1.1
