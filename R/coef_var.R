@@ -1,5 +1,4 @@
-#' @export
-#' #'
+#'
 #' Calculate the coefficient of variation
 #'
 #' @param x a numeric vector
