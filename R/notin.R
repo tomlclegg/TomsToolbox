@@ -1,6 +1,6 @@
 #' Value mismatching
 #'
-#' %notin% is the reverse in %in%
+#' %notin% is simply the inverse of %in%
 #' It is more convenient and readable than
 #' !x %in% y
 #'
