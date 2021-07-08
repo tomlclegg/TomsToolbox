@@ -12,3 +12,7 @@ coef_var(x)
 \description{
 Calculate the coefficient of variation
 }
+\examples{
+x <- rnorm(100)
+coef_var(x)
+}
