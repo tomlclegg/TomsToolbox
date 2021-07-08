@@ -5,8 +5,11 @@
 #' @param obs a numeric vector of observations
 #' @details
 #' rmse: root mean square error
+#'
 #' rrmse: relative root mean square error
+#'
 #' mpe: mean percentage error
+#'
 #' @export
 rmse <- function(pred, obs) sqrt(mean((pred - obs)^2))
 
