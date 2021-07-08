@@ -10,6 +10,8 @@
 #' @export
 rmse <- function(pred, obs) sqrt(mean((pred - obs)^2))
 
+#' @export
 rrmse <- function(pred, obs) sqrt(mean((pred - obs)^2)) / mean(obs)
 
+#' @export
 mpe <- function(pred, obs) mean((pred - obs) / pred) * 100
