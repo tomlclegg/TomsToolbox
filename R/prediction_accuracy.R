@@ -14,7 +14,9 @@
 rmse <- function(pred, obs) sqrt(mean((pred - obs)^2))
 
 #' @export
+#' @rdname rmse
 rrmse <- function(pred, obs) sqrt(mean((pred - obs)^2)) / mean(obs)
 
 #' @export
+#' @rdname rmse
 mpe <- function(pred, obs) mean((pred - obs) / pred) * 100
