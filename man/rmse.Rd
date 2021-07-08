@@ -2,9 +2,15 @@
 % Please edit documentation in R/prediction_accuracy.R
 \name{rmse}
 \alias{rmse}
+\alias{rrmse}
+\alias{mpe}
 \title{Prediction accuracy}
 \usage{
 rmse(pred, obs)
+
+rrmse(pred, obs)
+
+mpe(pred, obs)
 }
 \arguments{
 \item{pred}{a numeric vector of predictions}
@@ -16,6 +22,8 @@ Various measures of prediction accuracy
 }
 \details{
 rmse: root mean square error
+
 rrmse: relative root mean square error
+
 mpe: mean percentage error
 }
